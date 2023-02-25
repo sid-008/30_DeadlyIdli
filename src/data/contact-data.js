@@ -6,22 +6,22 @@ import {
 
 export const contactData = [
   {
-    title: "Excelent Services",
+    title: "Aimed at MSMEs",
     icon: StarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "We want to help micro, small and medium enterprises grow."
   },
   {
     title: "Grow Your Market",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "With dukaan's advanced analytics you can grow your sales and make your supply chain more robust"
   },
   {
     title: "Launch Time",
     icon: RocketLaunchIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Just use our provided csv format to record your montly sales and we'll do the rest!"
   },
 ];
 

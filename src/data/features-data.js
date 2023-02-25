@@ -1,30 +1,30 @@
 import {
-  StarIcon,
-  ArrowPathIcon,
-  FingerPrintIcon,
+  BuildingStorefrontIcon,
+  ChartPieIcon,
+  LockClosedIcon,
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
     color: "blue",
-    title: "Awarded Agency",
-    icon: StarIcon,
+    title: "For dukaandars",
+    icon: BuildingStorefrontIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "Helping small businesses grow"
   },
   {
     color: "red",
-    title: "Free Revisions",
-    icon: ArrowPathIcon,
+    title: "Monthly reports. On demand.",
+    icon: ChartPieIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Insights into your businesses's sales per month"
   },
   {
     color: "teal",
-    title: "Verified Company",
-    icon: FingerPrintIcon,
+    title: "We keep ypur data safe.",
+    icon: LockClosedIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "We believe in our users's privacy. Your data is not sold or used."
   },
 ];
 

@@ -71,11 +71,11 @@ export function Navbar({ brandName, routes, action }) {
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
           <a
-            href="https://www.material-tailwind.com/blocks?ref=mtkr"
+            href="https://github.com/sid-008/30_DeadlyIdli"
             target="_blank"
           >
-            <Button variant="text" size="sm" color="white" fullWidth>
-              pro version
+            <Button variant="gradient" size="sm" color="blue" fullWidth>
+              Go to app
             </Button>
           </a>
           {React.cloneElement(action, {
@@ -103,12 +103,13 @@ export function Navbar({ brandName, routes, action }) {
         <div className="container mx-auto">
           {navList}
           <a
-            href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
+
+            href="https://github.com/sid-008/30_DeadlyIdli"
             target="_blank"
             className="mb-2 block"
           >
             <Button variant="text" size="sm" fullWidth>
-              pro version
+              Go to app
             </Button>
           </a>
           {React.cloneElement(action, {
@@ -124,12 +125,9 @@ Navbar.defaultProps = {
   brandName: "Dukaan",
   action: (
     <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
+      href="https://github.com/sid-008/30_DeadlyIdli"
       target="_blank"
     >
-      <Button variant="gradient" size="sm" fullWidth>
-        free download
-      </Button>
     </a>
   ),
 };

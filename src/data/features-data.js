@@ -21,7 +21,7 @@ export const featuresData = [
   },
   {
     color: "teal",
-    title: "We keep ypur data safe.",
+    title: "We keep your data safe.",
     icon: LockClosedIcon,
     description:
       "We believe in our users's privacy. Your data is not sold or used."
